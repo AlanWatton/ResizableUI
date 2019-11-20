@@ -19,7 +19,6 @@ public class ResizableElementDraggable : MonoBehaviour, IDragHandler
     void IDragHandler.OnDrag(PointerEventData eventData)
     {
         _resizableElement.UpdateSize(_corner, _lastKnownPosition - eventData.position);
-        //_lastKnownPosition = eventData.position;
     }
 
     public void UpdatePosition()
