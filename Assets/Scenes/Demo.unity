@@ -931,10 +931,10 @@ MonoBehaviour:
   - {fileID: 1051398531}
   - {fileID: 1578865909}
   _corners:
-  - {fileID: 924862330}
-  - {fileID: 560558444}
-  - {fileID: 862061317}
-  - {fileID: 396521818}
+  - {fileID: 924862332}
+  - {fileID: 560558446}
+  - {fileID: 862061319}
+  - {fileID: 396521820}
 --- !u!114 &620620608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -981,7 +981,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 30.85
+  m_fontSize: 33.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1715,10 +1715,10 @@ RectTransform:
   m_Father: {fileID: 112523891}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -9.770004}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -1022, y: -532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1837491713
 MonoBehaviour:
@@ -1773,10 +1773,10 @@ MonoBehaviour:
   - {fileID: 1869721564}
   - {fileID: 679177275}
   _corners:
-  - {fileID: 247893460}
-  - {fileID: 1229688265}
-  - {fileID: 281921155}
-  - {fileID: 180216832}
+  - {fileID: 247893462}
+  - {fileID: 1229688267}
+  - {fileID: 281921157}
+  - {fileID: 180216834}
 --- !u!1 &1869721564
 GameObject:
   m_ObjectHideFlags: 0

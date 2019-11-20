@@ -15,7 +15,7 @@ public class ResizableElement : MonoBehaviour, IPointerClickHandler
 {
 #pragma warning disable 0649
     [SerializeField] private GameObject[] _lines;
-    [SerializeField] private GameObject[] _corners;
+    [SerializeField] private ResizableElementDraggable[] _corners;
 #pragma warning disable 0649
 
     private RectTransform _rectTransform;
@@ -37,7 +37,7 @@ public class ResizableElement : MonoBehaviour, IPointerClickHandler
             }
             for (int c = 0; c < _lines.Length; c++)
             {
-                _corners[c].SetActive(false);
+                _corners[c].gameObject.SetActive(false);
             }
         }
     }
@@ -53,7 +53,7 @@ public class ResizableElement : MonoBehaviour, IPointerClickHandler
             }
             for (int c = 0; c < _lines.Length; c++)
             {
-                _corners[c].SetActive(true);
+                _corners[c].gameObject.SetActive(true);
             }
         }
     }
@@ -80,6 +80,11 @@ public class ResizableElement : MonoBehaviour, IPointerClickHandler
                 _rectTransform.offsetMax = new Vector2(offsetMax.x - change.x, offsetMax.y);
                 _rectTransform.offsetMin = new Vector2(offsetMin.x, offsetMin.y - change.y);
                 break;
+        }
+
+        for (int c = 0; c < _lines.Length; c++)
+        {
+            _corners[c].UpdatePosition();
         }
     }
 

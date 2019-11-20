@@ -11,7 +11,6 @@ public class ResizableElementDraggable : MonoBehaviour, IDragHandler
 #pragma warning restore 0649
 
     private Vector2 _lastKnownPosition;
-
     private void Awake()
     {
         _lastKnownPosition = transform.position;
@@ -20,6 +19,11 @@ public class ResizableElementDraggable : MonoBehaviour, IDragHandler
     void IDragHandler.OnDrag(PointerEventData eventData)
     {
         _resizableElement.UpdateSize(_corner, _lastKnownPosition - eventData.position);
-        _lastKnownPosition = eventData.position;
+        //_lastKnownPosition = eventData.position;
+    }
+
+    public void UpdatePosition()
+    {
+        _lastKnownPosition = transform.position;
     }
 }
