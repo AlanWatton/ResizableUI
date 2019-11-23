@@ -6,7 +6,27 @@ using UnityEngine.UI;
 
 public class ResizableUI : MonoBehaviour
 {
-    public static ResizableUI Instance { get; private set; }
+    private static object _padlock = new object();
+    private static ResizableUI _instance = null;
+    public static ResizableUI Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+
+                lock (_padlock)
+                {
+                    if (_instance == null)
+                    {
+                        GameObject go = new GameObject("Resizable UI");
+                        _instance = go.AddComponent<ResizableUI>();
+                    }
+                }
+            }
+            return _instance;
+        }
+    }
 
     private EventSystem _eventSystem;
     private GraphicRaycaster _graphicRaycaster;
@@ -15,7 +35,6 @@ public class ResizableUI : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
 
         _eventSystem = FindObjectOfType<EventSystem>();
         if (_eventSystem == null)
