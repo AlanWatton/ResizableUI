@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="150" src="READMEImgs/ResizableUI-Blue.png">
+  <img width="600" height="300" src="READMEImgs/ResizableUI-Blue.png">
 </p>
 
 ***About***
