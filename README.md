@@ -9,7 +9,7 @@ Welcome to ResizableUI, a simple component that enables in app UI element resizi
 
 ***How to Get***
 
-Import the [Asset Package](ResizableUI-Asset-Package.unitypackage) 
+Import the [Asset Package](READMEImgs/ResizableUI-Asset-Package.unitypackage) 
 
 or
 
