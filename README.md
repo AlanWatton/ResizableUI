@@ -1,17 +1,49 @@
-# ResizableUI
-Download the Asset Package or the whole Project with a Demo Scene
+<p align="center">
+  <img width="300" height="150" src="ResizableUI-Blue.png">
+</p>
 
-## Usage
-Add the main ResizableUI Prefab to the Scene, this manages the resizable objects you add to the scene.
+***About***
 
-Next, add a Resizable UI Object Prefab as a child to any UI GameObjects you want to make resizable (GameObjects requrie a RectTransform).
+Welcome to ResizableUI, a simple component that enables in app UI element resizing.
 
-## Settings
-Set which directions are resizable, lock specific corners to positions and minimum size
 
-![alt text](READMEImgs/ComponentSettings1.png)
-![alt text](READMEImgs/ComponentSettings2.png)
+***How to Get***
 
-Finally, enjoy resizable elements within your UI.
+Import the [Asset Package](ResizableUI-Asset-Package.unitypackage) 
+
+or
+
+Import the 4 required Scripts
+
+- [ResizableUI]("https://github.com/iambase/ResizableUI/blob/master/ResizableUI%20Project/Assets/Scripts/ResizableUI.cs") 
+- [ResizableUIComponent]("https://github.com/iambase/ResizableUI/blob/master/ResizableUI%20Project/Assets/Scripts/ResizableUIComponent.cs") 
+- [ResizableUICorner]("https://github.com/iambase/ResizableUI/blob/master/ResizableUI%20Project/Assets/Scripts/ResizableUICorner.cs") 
+- [RectTransformExtensions]("https://github.com/iambase/ResizableUI/blob/master/ResizableUI%20Project/Assets/Scripts/RectTransformExtensions.cs") 
+
+
+***How to Use***
+
+Once the required files are included in the project, simple add the ResizableUIComponent Script to the desired UI element, thats it!
+
+***Screenshots***
+
+
+<p align="center">
+  <img width="552" height="182" src="READMEImgs/ResizableUIComponent.jpg">
+</p>
+
+
+<p align="center">
+  <img width="358" height="200" src="READMEImgs/ResizableUIComponentsNotSelected.jpg">
+</p>
+
+
+<p align="center">
+  <img width="358" height="200" src="READMEImgs/ResizableUIComponentsSelected.jpg">
+</p>
+
+
+***Finally***, enjoy resizable elements within your UI.
+
 
 Project: Unity 2018.4 - Windows
