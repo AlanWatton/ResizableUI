@@ -477,9 +477,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!114 &236361439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -949,9 +949,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!114 &476494739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1043,9 +1043,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!114 &515023590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2185,9 +2185,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!114 &856093567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2531,9 +2531,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!114 &1058545371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2716,9 +2716,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!114 &1059158892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3015,9 +3015,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!114 &1235360967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3840,9 +3840,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!114 &1409425069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4066,9 +4066,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!1 &1529222852
 GameObject:
   m_ObjectHideFlags: 0
@@ -4632,9 +4632,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!114 &1699183521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4996,9 +4996,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!114 &2024050860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5146,9 +5146,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cornerSprite: {fileID: 21300000, guid: f41f08e797d4e3d46a2dc0608004bc06, type: 3}
   _cornerColor: {r: 0, g: 0.43849897, b: 1, a: 1}
-  _cornerSize: 20
+  _cornerSize: 15
   _outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  _outlineWidth: 2
+  _outlineWidth: 1
 --- !u!114 &2071530222
 MonoBehaviour:
   m_ObjectHideFlags: 0
