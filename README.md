@@ -15,15 +15,15 @@ or
 
 Import the 4 required Scripts
 
-- [ResizableUI]("ResizableUI%20Project/Assets/Scripts/ResizableUI.cs") 
-- [ResizableUIComponent]("ResizableUI%20Project/Assets/Scripts/ResizableUIComponent.cs") 
-- [ResizableUICorner]("ResizableUI%20Project/Assets/Scripts/ResizableUICorner.cs") 
-- [RectTransformExtensions]("ResizableUI%20Project/Assets/Scripts/RectTransformExtensions.cs") 
+- [ResizableUI](ResizableUI%20Project/Assets/Scripts/ResizableUI.cs) 
+- [ResizableUIComponent](ResizableUI%20Project/Assets/Scripts/ResizableUIComponent.cs) 
+- [ResizableUICorner](ResizableUI%20Project/Assets/Scripts/ResizableUICorner.cs) 
+- [RectTransformExtensions](ResizableUI%20Project/Assets/Scripts/RectTransformExtensions.cs) 
 
 
 ***How to Use***
 
-Once the required files are included in the project, simple add the ResizableUIComponent Script to the desired UI element, thats it!
+Once the required files are included in the project, simply add the ResizableUIComponent Script to the desired UI element, thats it!
 
 ***Screenshots***
 
